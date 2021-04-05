@@ -1,0 +1,18 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+    id 'application'
+}
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+application {
+    mainClass = "main.com.kirillemets.kirillpeowpeow.server.ServerKt"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
